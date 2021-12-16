@@ -16,8 +16,8 @@ for friend in friends:
 
 # example 3 use in ints, here range is a keyword function
 for num in range(3,10):                     # RANGE FUNCTIONS OUTPUTS AN ORDERED SEQUENCE AS  A LIST 'i'
-    print(num)
-
+    print(num)                              # range(start,stop,step)
+list(range(1,10,2))                         # prints 1,3,5,7,9
 # exponent function
 print(2**4)                                 # two ** is for power, exponent
 def exponent(base,power):
