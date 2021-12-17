@@ -2,7 +2,8 @@
 # Strings are datatypes defined within quotes " or '
 # Strings, int, float , boolean are primitive data structures.
 
-print("Hello worlds")                               #print hello world
+print("Hello worlds")                               # prints hello world
+a=int(input("enter a number"))                      # input takes a string as input so has to be typecasted to int for integer input
 phrase="great"                                      # defining string variable
 print(len(phrase),phrase.upper())                   # some functions
 print(phrase[0])                                    #1st element of phrase
