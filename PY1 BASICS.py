@@ -2,8 +2,13 @@
 # Strings are datatypes defined within quotes " or '
 # Strings, int, float , boolean are primitive data structures.
 
+import ast
+input_str=input()
+input_list = ast.literal_eval(input_str)            # ast.literal_eval automatically evaluates the string into diff types in list without typecasting and splitting
 print("Hello worlds")                               # prints hello world
 a=int(input("enter a number"))                      # input takes a string as input so has to be typecasted to int for integer input
+string=input()                                      # takes an input string
+my_list=string.split(',')
 phrase="great"                                      # defining string variable
 print(len(phrase),phrase.upper())                   # some functions
 print(phrase[0])                                    #1st element of phrase
