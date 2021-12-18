@@ -43,6 +43,8 @@ print("you are " + number)
 print("your profession is " + profession)
 print("lets have some " + adj)
 
+from random import randint                  # to import randint function from random library
+print(randint(1,100))                       # prints random integer between 1 to 100
 
 
 
