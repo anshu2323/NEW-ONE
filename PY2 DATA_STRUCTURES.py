@@ -6,6 +6,7 @@
 list=string.split(' ')                                                 # to convert a string into a list
 string=' '.join(list)                                                  # to convert list back into string
 reverse = s[::-1]   or s.reverse                                       # to reverse a list
+final_list=[word.title() for word in words]                            # to change list items and start them with upper case.
 
 friend = ["punkoo","maddy","osho","saggy","osho","harshu",1 ]          # working with lists in Python []
 help(friend)
