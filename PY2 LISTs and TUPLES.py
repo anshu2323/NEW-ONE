@@ -2,7 +2,12 @@
 # Lists, tuples, dictionaries, sets are non primitive data structures.
 #LISTS are mutable sequences of any type data stored within square brackets []
 
-friend = ["punkoo","maddy","osho","saggy","osho","harshu",1 ]                 # working with lists in Python []
+
+list=string.split(' ')                                                 # to convert a string into a list
+string=' '.join(list)                                                  # to convert list back into string
+reverse = s[::-1]   or s.reverse                                       # to reverse a list
+
+friend = ["punkoo","maddy","osho","saggy","osho","harshu",1 ]          # working with lists in Python []
 help(friend)
 print(friend[0])                                                       # starts from 0
 print(friend[-1])                                                      # last element is indexed -1
