@@ -1,5 +1,6 @@
 
-# Lists, tuples, dictionaries, sets are non primitive data structures. A list can store multiple elements of multiple datatypes unlike array.
+# Lists, tuples, dictionaries, sets are non primitive data structures. A list can store multiple elements of multiple datatypes unlike array. Lists are accessed just like 
+strings i.e. L[::]
 #LISTS are mutable sequences of any type data stored within square brackets []
 
 
