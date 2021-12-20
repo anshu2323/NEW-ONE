@@ -10,6 +10,8 @@ a=int(input("enter a number"))                      # input takes a string as in
 string=input()                                      # takes an input string
 my_list=string.split(',')
 phrase="great"                                      # defining string variable
+string[start:end(not included):step(- for back)]
+phrase[::-1]                                        # reverses the string
 print(len(phrase),phrase.upper())                   # some functions
 print(phrase[0])                                    #1st element of phrase
 print(int(phrase.index('a')))                       # To find index of substring
