@@ -1,13 +1,16 @@
 
-# Lists, tuples, dictionaries, sets are non primitive data structures. A list can store multiple elements of multiple datatypes unlike array. Lists are accessed just like 
-strings i.e. L[::]
-#LISTS are mutable sequences of any type data stored within square brackets []
-
+# Lists, tuples, dictionaries, sets are non primitive data structures. 
+# A list can store multiple elements of multiple datatypes unlike array. Lists are accessed just like strings i.e. L[::]
+# LISTS are mutable sequences of any type data stored within square brackets []
+# They are ordered.
+# Strings can be typecasted to list like this. list(string) 
+# range function is only used for integers.
 
 list=string.split(' ')                                                 # to convert a string into a list
 string=' '.join(list)                                                  # to convert list back into string
 reverse = s[::-1]   or s.reverse                                       # to reverse a list
 final_list=[word.title() for word in words]                            # to change list items and start them with upper case.
+list.index(4)                                                          # gives index of the item where it first occured in the list.
 
 friend = ["punkoo","maddy","osho","saggy","osho","harshu",1 ]          # working with lists in Python []
 help(friend)
@@ -24,7 +27,8 @@ friend.extend(lucky_numbers)                                           # to exte
 print(friend)
 friend.append("tanks")                                                 # to append ONLY one more item at last
 print(friend)
-friend.insert(1,"kelly")                                               # to insert at any position
+friend.insert(1,"kelly")                                               # to insert at any position here kelly at index 1
+friend.pop() or friend.pop(3)                                          # removes the last element by default or the index passed as argument here 3 and also gives o/p removed.
 print(friend)
 friend.remove("kelly")                                                 # to remove an item in the list by element
 print(friend)
@@ -43,12 +47,13 @@ lucky_numbers.sort()
 print(lucky_numbers)
 lucky_numbers.reverse()                                         # reverse the elements of the list
 print(lucky_numbers)
-friend_2 = friend.copy()                                        # copies the list i.e. points to the same variable
+friend_2 = friend.copy()                                        # copies the list i.e. in a different memory location
+id(friend_2)                                                    # shows memory location
 print(friend_2)
-friend_3=friend[:]                                              # cloning a list i.e. creates a new variable
+friend_3=friend[:]                                              # cloning a list i.e. creates a new variable pointing the different memory location.
 print(friend_3)
 
-# TUPLES are immutable ordered sequences of any type of data stored within round brackets ()
+# TUPLES are immutable ordered sequences of any type of data stored within round brackets ().
 
 coordinates =(4,5)                                    # creating a tuple
 print(coordinates[0])                                 # 1st index position
